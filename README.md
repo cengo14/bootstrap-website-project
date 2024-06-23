@@ -54,4 +54,14 @@ Proje ile ilgili herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen [cen
 
 ---
 ## Ekran Görüntüleri
+![Ana Sayfa](screenshot/Screenshot1.gif)
 
+![Hakkımızda](screenshot/Screenshot2.gif)
+
+![Hizmetlerimiz](screenshot/Screenshot3.gif)
+
+![Pörtföy](screenshot/Screenshot4.gif)
+
+![Blog](screenshot/Screenshot5.gif)
+
+![İletişim](screenshot/Screenshot6.gif)

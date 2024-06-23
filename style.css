@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1 !important;
+}
+.logo {
+  height: 50px;
+}
+.ayrac {
+  font-size: 20px;
+  margin: 0 20px;
+  color: #ffffff;
+}
+.nav-bg {
+  background-color: rgb(8, 8, 8);
+}
+.upside {
+  background-image: url(img/ust-bg.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.nav-item a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+.nav-item a:hover {
+  color: #f4b70b;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.space {
+  margin-top: 190px;
+}
+/*? offer area */
+.offer {
+  height: 60px;
+  margin-bottom: 30px;
+}
+.quote {
+  font-size: 60px;
+}
+/*? services area */
+.services {
+  background-color: #f4b70b;
+}
+.title {
+  transition: all 0.5s ease;
+}
+.title:hover {
+  background-color: #d99f00;
+}
+.box {
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.box:hover {
+  transform: scale(1.1);
+}
+/* ? about-us area */
+.person-icon1 {
+  background-color: #3e4752;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(img/ahmet.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.person-icon2 {
+  background-color: #3e4752;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(img/zeynep.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.person-icon3 {
+  background-color: #3e4752;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(img/ercan.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.person-icon4 {
+  background-color: #3e4752;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(img/mert.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.person-icon5 {
+  background-color: #3e4752;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(img/kubra.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icons {
+  width: 73%;
+}
+/* ? slogan area */
+.slogan {
+  background-image: url(img/ust-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.slogan-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+.rocket {
+  font-size: 150px;
+  color: white;
+}
+/* ? works area */
+.work-box {
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.5s ease;
+}
+.work-box:hover {
+  transform: scale(1.05);
+  border: 1px solid gray;
+}
+.work-img {
+  margin: 5px;
+  width: 200px;
+  height: auto;
+}
+.work-title {
+  font-size: 14px;
+}
+/* ? footer area */
+.footer {
+  background-color: #323942;
+  height: 250px;
+}
+.footer-icons i:hover {
+  color: #d99f00;
+}
+/* ? About Us page area */
+.upside-about-us {
+  background-image: url(img/ust-bg-2.jpg);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.about-us-width {
+  height: 50vh;
+  gap: 18px;
+}
+.about-us-title {
+  line-height: 30px;
+}
+.about-us-title h2 {
+  color: #f4b70b;
+  font-weight: 700;
+  font-size: 35px;
+}
+.about-us-title p {
+  color: white;
+  font-size: 16px;
+}
+.body-title {
+  border-bottom: 1px solid black;
+}
+.about-img-box {
+  border: 3px solid black;
+}
+.about-img-box img {
+  margin: 5px 5px;
+  width: 97%;
+}
+/* ? services page area */
+.upside-services {
+  background-image: url(img/ust-bg-2.jpg);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.services-title {
+  line-height: 30px;
+}
+.services-title h2 {
+  color: #f4b70b;
+  font-weight: 700;
+  font-size: 30px;
+}
+.services-title p {
+  color: white;
+  font-size: 14px;
+}
+.services-width {
+  height: 50vh;
+  gap: 18px;
+}
+/* ? portfoy page area */
+.upside-portfoy {
+  background-image: url(img/ust-bg-2.jpg);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.portfoy-width {
+  height: 50vh;
+  gap: 18px;
+}
+.portfoy-img-box {
+  border: 3px solid black;
+}
+.portfoy-img-box img {
+  margin: 3px 3px;
+  width: 97%;
+}
+/* ?blog page area */
+.upside-blog {
+  background-image: url(img/ust-bg-2.jpg);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.blog-width {
+  height: 50vh;
+  gap: 18px;
+}
+/* ? contact page area */
+.upside-contact {
+  background-image: url(img/ust-bg-2.jpg);
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.contact-width {
+  height: 50vh;
+  gap: 18px;
+}
+.form-submit {
+  border-radius: 25px !important;
+}
+@media screen and (max-width: 992px) {
+  .ayrac {
+    display: none;
+  }
+  .nav-item:hover {
+    background-color: rgba(38, 38, 38, 0.718);
+  }
+  .offer {
+    margin-bottom: 50px;
+  }
+  .about-person {
+    flex-wrap: wrap;
+  }
+  .person {
+    margin: 5px;
+    border-radius: 95px;
+    box-shadow: 5px 5px 20px #323942;
+  }
+  .work-img {
+    margin: 2px 2px 2px 2px;
+    width: 95%;
+    height: auto;
+  }
+  .about-us-title {
+    line-height: 20px;
+  }
+  .about-us-title h2 {
+    font-size: 28px;
+  }
+  .about-us-title p {
+    font-size: 12px;
+  }
+  /* .upside-about-us{
+    height: auto;
+  }
+  .upside-services{
+    height: auto;
+  }
+  .upside-portfoy{
+    height: auto;
+  } */
+}

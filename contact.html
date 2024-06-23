@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+    <div class="upside-contact">
+        <nav class="navbar navbar-expand-lg nav-bg">
+            <div class="container p-0">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" class="img-fluid logo" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item d-flex align-items-center px-3">
+                            <a class="nav-link active" aria-current="page" href="aboutUs.html"><i
+                                    class="fa-solid fa-circle-exclamation"></i> Hakkımızda</a>
+                            <span class="ayrac">|</span>
+                        </li>
+                        <li class="nav-item d-flex align-items-center px-3">
+                            <a class="nav-link " href="services.html"><i class="fa-solid fa-gears"></i>
+                                Hizmetlerimiz</a>
+                            <span class="ayrac">|</span>
+
+
+                        </li>
+                        <li class="nav-item d-flex align-items-center px-3">
+                            <a class="nav-link" href="portfoy.html"><i class="fa-solid fa-folder-open"></i> Pörtföy</a>
+                            <span class="ayrac">|</span>
+
+                        </li>
+                        <li class="nav-item d-flex align-items-center px-3">
+                            <a class="nav-link" href="blog.html"><i class="fa-brands fa-windows"></i> Blog</a>
+                            <span class="ayrac">|</span>
+
+                        </li>
+                        <li class="nav-item d-flex align-items-center px-3">
+                            <a class="nav-link" href="contact.html"><i class="fa-solid fa-at"></i> İletişim</a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex align-items-center contact-width">
+                    <img class="img-fluid logo-2 " src="img/logo-2.png" alt="logo-2">
+                    <div class="about-us-title">
+                        <h2>İLETİŞİM</h2>
+                        <P>Hizmetlerimiz ya da teklifler hakkında bizlerle 7/24 iletişim kurmak için aşağıdaki formu
+                            kullanabilirsiniz</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container contact p-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 class="display-4 fs-4 title body-title">İletişim Formu</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputName" class="form-label">Adınız Soyadınız</label>
+                        <input type="text" class="form-control" id="exampleInputName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email adresiniz</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">E-postanızı asla başkalarıyla paylaşmayacağız.</div>
+                    </div>
+                    <label for="options" class="form-label">Konu</label>
+                    <select class="form-select" id="options" aria-label="Default select example">
+                        <option selected>Teklif Alma</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                    <div class="my-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Kontrol Et</label>
+                    </div>
+                    <label for="floatingTextarea2">Mesaj</label>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success form-submit"><i class="fa-regular fa-paper-plane"></i>
+                        GÖNDER</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="contact-img-box">
+                    <img src="img/iletisim.png" class="w-75 img-fluid" alt="contact">
+                </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-md-6">
+                <h4 class="display-4 fs-4 fw-normal title body-title"><i class="fa-solid fa-location-dot"></i> Adres
+                </h4>
+                <div class="contact-title mb-5">
+                    <p>Hürriyet Mahallesi Cumhuriyet Caddesi Egemenlik İş Merkezi Blok/C Dış No:14/14 Dandanakan
+                        Mercidabık/Bolu</p>
+                </div>
+                <h4 class="display-4 fs-4 fw-normal title body-title"><i class="fa-solid fa-phone"></i> Telefon</h4>
+                <div class="contact-title mb-5">
+                    <a href="#">0555 555 55 55</a>
+                </div>
+                <h4 class="display-4 fs-4 fw-normal title body-title"><i class="fa-solid fa-envelope"></i> Email</h4>
+                <div class="contact-title mb-3">
+                    <a href="#">contact@infoxyz.xyz</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="map-box">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48371.071903211254!2d31.573684977296093!3d40.735800682702916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x409d3f16dc8406d1%3A0x83cc363ab54b82e9!2sBolu%2C%20Bolu%20Merkez%2FBolu!5e0!3m2!1str!2str!4v1719148201248!5m2!1str!2str"
+                        class="" width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+             </div>
+    </div>
+    <footer class="container-fluid footer p-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer-icons fs-2 text-center text-muted mb-3">
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <p class="footer-title text-center text-muted"> &copy; Copyright 2024 Tüm Hakları Saklıdır
+                </p>
+                <p class="text-center text-muted">Tasarım Bilişim Teknolojisi</p>
+            </div>
+        </div>
+    </footer>
+    <script src="style/bootstrap.js"></script>
+</body>
+
+</html>

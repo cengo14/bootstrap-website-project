@@ -54,4 +54,4 @@ Proje ile ilgili herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen [cen
 
 ---
 ## Ekran Görüntüleri
-<img src="screenshot/Screenshot1.jpeg" width="300"/> <img src="screenshot/Screenshot2.jpeg" width="300"/> <img src="screenshot/Screenshot3.jpeg" width="300"/>
+
